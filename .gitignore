@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Your analysis outputs
+data/
+logs/
+
+*.par
+*.npy
+*.fits
+*.xml
+*.log

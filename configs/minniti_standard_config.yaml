@@ -1,0 +1,42 @@
+data:
+  evfile : '/Users/maomao/sfsu_research/minniti/data/PH.txt'
+  scfile : '/Users/maomao/sfsu_research/minniti/data/L260615201253BAC5F7B429_SC00.fits'
+
+selection:
+  emin: 300
+  emax: 500000
+  zmax: 90
+  tmin: 239557417
+  tmax: 803244807
+  evclass: 128
+  evtype: 3
+  glon: 359.1
+  glat: -2.7
+  radius: 18
+  filter: '(DATA_QUAL>0)&&(LAT_CONFIG==1)'
+
+binning:
+  roiwidth: 20
+  binsz: 0.1
+  binsperdec: 8
+  coordsys: GAL
+
+gtlike:
+  edisp: True
+  irfs: 'P8R3_SOURCE_V3'
+  edisp_disable: ['isodiff']
+  edisp_bins : -2
+
+model:
+  src_roiwidth : 30
+  galdiff: '/Users/maomao/sfsu_research/minniti/data/gll_iem_v07.fits'
+  isodiff: '/Users/maomao/sfsu_research/minniti/data/iso_P8R3_SOURCE_V3_v1.txt'
+  catalogs: [ '4FGL-DR4' ]
+
+optimizer:
+  optimizer: NEWMINUIT
+  retries: 3
+  min_fit_quality: 2
+
+fileio:
+  outdir: /Users/maomao/sfsu_research/minniti/results/standard_diffuse/baseline

@@ -1,0 +1,7 @@
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH00.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH01.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH02.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH03.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH04.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH05.fits
+/Users/maomao/sfsu_research/minniti/data/PH/L260615201253BAC5F7B429_PH06.fits
